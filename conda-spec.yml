@@ -1,0 +1,13 @@
+name: model_avg_paper
+channels:
+  - conda-forge
+dependencies:
+  - pip
+  - jupyter
+  - python=3.8
+  - numpy=1.19.5
+  - matplotlib=3.3.3
+  - seaborn=0.11.1
+  - pip:
+    - gvar==11.9.1
+    - lsqfit==11.7
